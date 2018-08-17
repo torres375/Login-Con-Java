@@ -14,9 +14,9 @@ import java.util.logging.Logger;
 
 public class AuthenticationService {
     
-    private final String DB_URL = "jdbc:derby://localhost:1527/utenti";
+    private final String DB_URL = "jdbc:derby://0.0.0.0:8080/utenti";
     List<User> users;
-    private final String DB="jdbc:derby://localhost:1527/users";
+    private final String DB="jdbc:derby://0.0.0.0:8080/users";
 
     public AuthenticationService() {
     users = new ArrayList<>(); 
